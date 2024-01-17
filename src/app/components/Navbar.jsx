@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import NavLink from "./Navlink";
+import NavLink from "./NavLink";
 import { useState } from "react";
 import MenuOverlay from "./MenuOverlay";
 import { AiOutlineClose, AiOutlineBars } from "react-icons/ai";
