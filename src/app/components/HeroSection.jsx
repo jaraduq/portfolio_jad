@@ -40,7 +40,7 @@ function HeroSection() {
           <div className="flex justify-center items-center flex-shrink-0">
             <Image
               className="rounded-full lg:w-[250px] lg:h-[250px]"
-              src="/images/avatar.jpg"
+              src="./images/avatar.jpg"
               alt="avatar image"
               width={250}
               height={250}
