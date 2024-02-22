@@ -22,7 +22,7 @@ function IntroductionSection() {
           <div className="flex justify-center items-center flex-shrink-0">
             <Image
               className="rounded-full lg:w-[250px] lg:h-[250px]"
-              src="/images/webpage/avatar.jpg"
+              src="./images/webpage/avatar.jpg"
               alt="avatar image"
               width={250}
               height={250}

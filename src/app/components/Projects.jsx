@@ -21,7 +21,7 @@ const projectsData = [
       "new orders and sending a notice to the user if their order can be attended to or the product they are ordering is not in stock. " +
       "and the third part of the project is the API that is responsible for the communication between the user application and the administrator application.\n" +
       "I can't show the code but you can ask me the details in the interview.",
-    image: "/images/projects/encorto.png",
+    image: "./images/projects/encorto.png",
     tag: ["All", "Apps"],
     gitUrl: "/",
     previewUrl: "/",
@@ -39,7 +39,7 @@ const projectsData = [
       "You can add or remove elements from the carousel from the admin's view, " +
       "as well as add or remove new offers and products.\n" +
       "I can't show the code but you can ask me the details in the interview.",
-    image: "/images/projects/logo_lasuperior.png",
+    image: "./images/projects/logo_lasuperior.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
