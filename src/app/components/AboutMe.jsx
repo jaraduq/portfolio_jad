@@ -37,7 +37,7 @@ const TAB_DATA = [
       <div className="flex justify-center items-center flex-shrink-0">
         <Image
           className="rounded-none w-[171px] h-[71px] lg:w-[312px] lg:h-[117px]"
-          src="/images/webpage/uaslp_logo.jpg"
+          src="./images/webpage/uaslp_logo.jpg"
           alt="avatar image"
           width={147}
           height={342}
@@ -81,7 +81,7 @@ export default function AboutMe() {
         <div className="col-span-1 h-64 w-full relative">
           <Image
             alt="aboutmeImg"
-            src="/images/webpage/ia_generated_image.jpg"
+            src="./images/webpage/ia_generated_image.jpg"
             fill
             className="object-cover w-full h-auto"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
