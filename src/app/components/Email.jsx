@@ -29,7 +29,7 @@ export default function Email() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
+    <div className="grid md:grid-cols-2 my-6 md:my-12 py-6 gap-4">
       <div>
         <div className="text-xl font-bold text-white my-2">
           <h5>Let&apos;s Connect</h5>
