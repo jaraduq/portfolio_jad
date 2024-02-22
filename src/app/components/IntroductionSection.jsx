@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const MY_CV = "/downloads/cv_josue_aradillas_2024.pdf";
 const AVATAR_IMG = "/images/avatar.jpg";
-function HeroSection() {
+function IntroductionSection() {
   return (
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-12 ">
@@ -45,4 +45,4 @@ function HeroSection() {
     </div>
   );
 }
-export default HeroSection;
+export default IntroductionSection;

@@ -90,10 +90,9 @@ export default function AboutMe() {
         <div className=" text-left col-span-1 h-full justify-center align-middle">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            +5 años de experiencia en desarrollo web y aplicaciones moviles,
-            tengo experiencia programando tanto en front-end como en back-end.
-            Me gusta aprender nuevas habilidades en mis ratos libres y
-            enfrentarme a nuevos retos.
+            +5 years of experience in web development and mobile applications, I
+            have experience programming both front-end and back-end. I like to
+            learn new skills in my free time and face new challenges.
           </p>
           <div className="flex flex-row max-[320px]:flex-col justify-between mt-8">
             <TabButton
