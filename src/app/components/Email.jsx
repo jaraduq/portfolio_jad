@@ -35,13 +35,12 @@ export default function Email() {
           <h5>Let&apos;s Connect</h5>
         </div>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          estoy en busca de nuevas oportunidades, si te gustaria contactar
-          conmigo o tienes alguna pregunta puedes enviarme un mensaje y te
-          respondere lo mas rapido que pueda.
+          I am looking for new opportunities, if you would like to contact with
+          me or have any questions you can send me a message and I will respond
+          as quickly as I can.
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="linkedin.com">
+          <Link href="www.linkedin.com/in/josue-aradillas-duque-901551194">
             <ImLinkedin />
           </Link>
         </div>

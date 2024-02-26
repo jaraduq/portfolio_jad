@@ -31,9 +31,6 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      // <ul className="list-disc pl-2">
-      //   <li>Universidad Autonoma de San Luis Potosí (UASLP)</li>
-      // </ul>
       <div className="flex justify-center items-center flex-shrink-0">
         <Image
           className="rounded-none w-[171px] h-[71px] lg:w-[312px] lg:h-[117px]"
@@ -60,24 +57,12 @@ export default function AboutMe() {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
-  // const handleTabChange = (id) => {
-  //   startTransition(() => {
-  //     setTab(id);
-  //   });
-  // };
   const handleTabChange = (id) => {
     setTab(id);
   };
   return (
     <div className="text-white">
       <div className="mt-14 md:mt-6 grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 gap-8   items-center">
-        {/* <div
-          className="text-left col-span-1 h-full justify-center align-middle aspect-video w-full"
-          style={{
-            background: `url(${"/images/img02.jpg"})`,
-            backgroundSize: "cover",
-          }}
-        ></div> */}
         <div className="col-span-1 h-64 w-full relative">
           <Image
             alt="aboutmeImg"
@@ -113,103 +98,12 @@ export default function AboutMe() {
             >
               Certifications
             </TabButton>
-            {/* <button onClick={() => handleTabChange("skills")}>
-              <p
-                className={
-                  tab === "skills"
-                    ? "mr-3 font-semibold hover:text-white text-white border-b border-purple-500 "
-                    : "mr-3 font-semibold hover:text-white text-[#fff]"
-                }
-                // className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}
-              >
-                Skills
-              </p>
-            </button>
-            <button onClick={() => handleTabChange("education")}>
-              <p
-                className={
-                  tab === "education"
-                    ? "mr-3 font-semibold hover:text-white text-white border-b border-purple-500 "
-                    : "mr-3 font-semibold hover:text-white text-[#fff]"
-                }
-                // className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}
-              >
-                Education
-              </p>
-            </button>
-            <button onClick={() => handleTabChange("certifications")}>
-              <p
-                className={
-                  tab === "certifications"
-                    ? "mr-3 font-semibold hover:text-white text-white border-b border-purple-500 "
-                    : "mr-3 font-semibold hover:text-white text-[#fff]"
-                }
-                // className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}
-              >
-                Certifications
-              </p>
-            </button> */}
           </div>
           <div className="mt-8 h-32">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>
-      {/* <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          alt="aboutmeImg"
-          src="/images/img02.jpg"
-          width={250}
-          height={250}
-          className="object-cover"
-        />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center align-middle">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            +5 anos de experiencia en desarrollo web y aplicaciones moviles,
-            tengo experiencia programando tanto en front-end como en back-end.
-          </p>
-          <div className="flex justify-between items-center gap-1">
-            <FaHtml5 color="blue" fontSize="1.5em" />
-            <FaReact />
-            <FaCss3Alt />
-            <IoLogoJavascript />
-            <BsFiletypeSql />
-            <SiMysql />
-            <BiLogoPostgresql />
-            <FaHtml5 />
-            <FaHtml5 />
-            <FaHtml5 />
-          </div>
-         
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selecTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {""}
-              Skills{""}
-            </TabButton>
-            <TabButton
-              selecTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              {""}
-              Education{""}
-            </TabButton>
-            <TabButton
-              selecTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {""}
-              Certifications{""}
-            </TabButton>
-          </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
